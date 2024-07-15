@@ -8,7 +8,7 @@ import AsynchronousDemo from "./AsynchronousTutorial";
 import APIDemo from "./APIDemo";
 import PropsDemo from "./PropsDemo";
 import RouterDemo from "./RouterDemo";
-import { BrowserRouter as Router , Routes} from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
