@@ -12,6 +12,8 @@ import { BrowserRouter as Router } from "react-router-dom";
 import CRUDDemo from "./CRUD"
 import StateWithObjectDemo from "./StateWithObject";
 import UseRefHook from "./UseRef_Hooks";
+import TextBoxValue from "./TextBoxValue"
+import HideShowDemo from "./HideShowDemo"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -25,9 +27,9 @@ root.render(
     {/* <APIDemo/> */}
     {/* <PropsDemo name = "Jack"/> */}
      {/* <StateWithObjectDemo /> */}
-    <UseRefHook />
-
-
+    {/* <UseRefHook /> */}
+        {/* <TextBoxValue /> */}
+        <HideShowDemo />
 
     {/* <Router>
       <RouterDemo />

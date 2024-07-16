@@ -1,4 +1,4 @@
-//Hook used to modify dom objects
+//Hook used to modify dom objects Hooks start with "use"
 
 import React, {useRef} from "react";
 

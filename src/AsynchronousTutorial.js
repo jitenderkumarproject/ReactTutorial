@@ -1,3 +1,5 @@
+// Asynchronous means multi threading
+
 export default function AsynchronousDemo()
 {
 const event = new Promise((resolve, reject) =>{
