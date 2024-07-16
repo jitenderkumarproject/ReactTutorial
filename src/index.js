@@ -14,6 +14,9 @@ import StateWithObjectDemo from "./StateWithObject";
 import UseRefHook from "./UseRef_Hooks";
 import TextBoxValue from "./TextBoxValue"
 import HideShowDemo from "./HideShowDemo"
+import ConditionOperator from "./ConditionOperator"
+import ConstructorDemo from "./ConstructorDemo";
+import HandleFormDemo from "./HandleForm"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -29,7 +32,10 @@ root.render(
      {/* <StateWithObjectDemo /> */}
     {/* <UseRefHook /> */}
         {/* <TextBoxValue /> */}
-        <HideShowDemo />
+        {/* <HideShowDemo /> */}
+      {/* <ConditionOperator /> */}
+      {/* <ConstructorDemo /> */}
+      <HandleFormDemo />
 
     {/* <Router>
       <RouterDemo />
