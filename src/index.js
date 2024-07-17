@@ -17,6 +17,8 @@ import HideShowDemo from "./HideShowDemo"
 import ConditionOperator from "./ConditionOperator"
 import ConstructorDemo from "./ConstructorDemo";
 import HandleFormDemo from "./HandleForm"
+import ListKeyDemo from "./ListKeyDemo";
+import MapDemo  from "./MapDemo"; 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -35,7 +37,10 @@ root.render(
         {/* <HideShowDemo /> */}
       {/* <ConditionOperator /> */}
       {/* <ConstructorDemo /> */}
-      <HandleFormDemo />
+      {/* <HandleFormDemo /> */}
+      {/* <ListKeyDemo /> */}
+      <MapDemo />
+
 
     {/* <Router>
       <RouterDemo />
